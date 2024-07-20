@@ -2,9 +2,9 @@
 # Errors encountered during execution are logged using the $Error variable.
 
 #File paths
-$filepaths = @("D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Files\file1.txt", "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Files\file2readonly.txt", "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Files\file3.txt")
+$filepaths = @("D:\file1.txt", "D:\file2readonly.txt", "D:\file3.txt")
 
-$logfilepath = "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Files\error.log"
+$logfilepath = "D:\error.log"
 
 Clear-Content $logfilepath -ErrorAction SilentlyContinue
 
