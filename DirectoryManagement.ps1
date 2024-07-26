@@ -3,7 +3,7 @@
 # Errors encountered during execution are logged using the $Error variable.
 
 # Define directory paths
-$basedir = "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Directories"
+$basedir = "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10\Directories\File_Handling"
 $pathtocreate = @("$basedir\Dir1", "$basedir\Dir2", "$basedir\Dir3")
 $logfilepath = "$basedir\error.log"
 
