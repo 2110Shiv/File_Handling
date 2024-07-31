@@ -91,7 +91,7 @@ Script:
 # This script performs directory and file management operations, demonstrating error handling and logging.
 
 # Define base directory and file paths
-$basedir = "D:\College\Sam_4\SYST16023 MS Powershell Scripting\Week10"
+$basedir = "D:\"
 $dirPathsToCreate = @("$basedir\Directories\Dir1", "$basedir\Directories\Dir2", "$basedir\Directories\Dir3")
 $filePaths = @(
     "$basedir\Files\file1.txt",
